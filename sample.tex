@@ -1,52 +1,26 @@
-%%%%%%%%%%%%%%%%%
-% This is an sample CV template created using altacv.cls
-% (v1.7.2, 28 August 2024) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
-
-%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
-% \documentclass[10pt,a4paper,normalphoto]{altacv}
-
 \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
-%% AltaCV uses the fontawesome5 and simpleicons packages.
-%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
 
-% Change the page layout if you need to
 \geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
 
-% The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
+\usepackage[vietnamese]{babel}
+\usepackage{hyperref}
 
-% Change the font if you want to, depending on whether
-% you're using pdflatex or xelatex/lualatex
-% WHEN COMPILING WITH XELATEX PLEASE USE
-% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" sample.tex
-\ifxetexorluatex
-  % If using xelatex or lualatex:
+\iftutex 
   \setmainfont{Roboto Slab}
   \setsansfont{Lato}
   \renewcommand{\familydefault}{\sfdefault}
 \else
-  % If using pdflatex:
   \usepackage[rm]{roboto}
   \usepackage[defaultsans]{lato}
-  % \usepackage{sourcesanspro}
   \renewcommand{\familydefault}{\sfdefault}
 \fi
 
-% Change the colours if you want to
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
-\definecolor{DarkPastelRed}{HTML}{450808}
-\definecolor{PastelRed}{HTML}{8F0D0D}
-\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{DarkPastelRed}{HTML}{51715c}
+\definecolor{PastelRed}{HTML}{51715c}
+\definecolor{GoldenEarth}{HTML}{51715c}
 \colorlet{name}{black}
 \colorlet{tagline}{PastelRed}
 \colorlet{heading}{DarkPastelRed}
@@ -56,63 +30,36 @@
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
-% Change some fonts, if necessary
 \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
 \renewcommand{\personalinfofont}{\footnotesize}
 \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
 \renewcommand{\cvsubsectionfont}{\large\bfseries}
 
 
-% Change the bullets for itemize and rating marker
-% for \cvskill if you want to
 \renewcommand{\cvItemMarker}{{\small\textbullet}}
 \renewcommand{\cvRatingMarker}{\faCircle}
-% ...and the markers for the date/location for \cvevent
-% \renewcommand{\cvDateMarker}{\faCalendar*[regular]}
-% \renewcommand{\cvLocationMarker}{\faMapMarker*}
 
 
-% If your CV/résumé is in a language other than English,
-% then you probably want to change these so that when you
-% copy-paste from the PDF or run pdftotext, the location
-% and date marker icons for \cvevent will paste as correct
-% translations. For example Spanish:
-% \renewcommand{\locationname}{Ubicación}
-% \renewcommand{\datename}{Fecha}
-
-
-%% Use (and optionally edit if necessary) this .tex if you
-%% want to use an author-year reference style like APA(6)
-%% for your publication list
-% \input{pubs-authoryear.cfg}
-
-%% Use (and optionally edit if necessary) this .tex if you
-%% want an originally numerical reference style like IEEE
-%% for your publication list
-\input{pubs-num.cfg}
-
-%% sample.bib contains your publications
-\addbibresource{sample.bib}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{public.bib}
 
 \begin{document}
-\name{Your Name Here}
-\tagline{Your Position or Tagline Here}
-%% You can add multiple photos on the left or right
-\photoR{2.8cm}{Globe_High}
-% \photoL{2.5cm}{Yacht_High,Suitcase_High}
+\name{Nguyễn Chí Bằng}
+\tagline{Lead developer \& Researcher}
+\photoR{2.8cm}{bancie}
 
 \personalinfo{%
   % Not all of these are required!
-  \email{your_name@email.com}
-  \phone{000-00-0000}
-  \mailaddress{Åddrésş, Street, 00000 Cóuntry}
-  \location{Location, COUNTRY}
-  \homepage{www.homepage.com}
+  % \email{chibangn1@gmail.com}
+  \mailaddress{chibangn1@gmail.com}
+  \github{Bancie}
+  \phone{+84 832 946 009}
+  \location{HCM City, VIETNAM}
+  % \homepage{www.homepage.com}
   % \twitter{@twitterhandle}
-  \xtwitter{@x-handle}
-  \linkedin{your_id}
-  \github{your_id}
-  \orcid{0000-0000-0000-0000}
+  % \xtwitter{@x-handle}
+  % \linkedin{your_id}
+  % \orcid{0000-0000-0000-0000}
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
   % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
@@ -144,152 +91,181 @@
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
 \begin{paracol}{2}
-\cvsection{Experience}
+\cvsection{Kinh nghiệm}
 
-\cvevent{Job Title 1}{Company 1}{Month 20XX -- Ongoing}{Location}
+
+\cvevent{Nghiên cứu và Phát triển phần mềm}{Tối ưu hoá Chuỗi thời gian}{7/2024 - Hiện tại}{Đại học Bách Khoa TP.HCM}
 \begin{itemize}
-\item Job description 1
-\item Job description 2
+\item Nghiên cứu và phát triển thuật toán lập lịch tối ưu, kết hợp học máy và học sâu cho đơn máy và đa máy.
+\item Thiết kế thư viện Python, hỗ trợ triển khai và tối ưu hóa thuật toán lập lịch.
 \end{itemize}
 
 \divider
 
-\cvevent{Job Title 2}{Company 2}{Month 20XX -- Ongoing}{Location}
+\cvevent{Vận Trù Học}{Phương pháp xử lý bài toán Tối ưu tuyến tính nguyên}{8/2023 - 5/2024}{Đại học Sài Gòn}
 \begin{itemize}
-\item Job description 1
-\item Job description 2
+\item Nghiên cứu và ứng dụng thuật toán Branch and Bound và Gomory, giải quyết bài toán tối ưu tuyến tính với ràng buộc nghiệm nguyên.
+\item Thiết kế thư viện Python, hỗ trợ triển khai và tối ưu hóa thuật toán Branch and Bound.
+\item Đề tài nghiên cứu xếp loại xuất sắc, nằm trong top 30\% trong tổng 179 đề tài.
 \end{itemize}
 
-\cvsection{Projects}
 
-\cvevent{Project 1}{Funding agency/institution}{}{}
+\cvsection{Dự án}
+
+\cvevent{TiLearn}{A Python library for machine scheduling.}{7/2024 - Hiện tại}{}
 \begin{itemize}
-\item Details
+\item Ứng dụng thuật toán lập lịch và phương pháp Học máy.
+\item Nền tảng mã nguồn mở cung cấp công cụ và tài nguyên giúp cá nhân và đội nhóm quản lý thời gian.
+\item \href{https://pypi.org/project/TiLearn/}{PyPI} \faPython
+\item \href{https://github.com/Bancie/TiLearn}{GitHub} \faGithubSquare
 \end{itemize}
 
 \divider
 
-\cvevent{Project 2}{Funding agency/institution}{Project duration}{}
-A short abstract would also work.
+\cvevent{Optimization-Oracle}{An open-source library for efficient MILP algorithms.}{8/2023 - Hiện tại}{}
+\begin{itemize}
+\item Thư viện mã nguồn mở phát triển và cải thiện thuật toán Branch and Bound giúp xử lý bài toán Tối ưu tuyến tính nguyên hỗn hợp (MILP).
+\item \href{https://github.com/Bancie/Optimization-Oracle}{GitHub} \faGithubSquare
+\end{itemize}
 
 \medskip
 
-\cvsection{A Day of My Life}
+%\cvsection{A Day of My Life}
 
 % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
 % \wheelchart{outer radius}{inner radius}{
 % comma-separated list of value/text width/color/detail}
-\wheelchart{1.5cm}{0.5cm}{%
-  6/8em/accent!30/{Sleep,\\beautiful sleep},
-  3/8em/accent!40/Hopeful novelist by night,
-  8/8em/accent!60/Daytime job,
-  2/10em/accent/Sports and relaxation,
-  5/6em/accent!20/Spending time with family
-}
+%\wheelchart{1.5cm}{0.5cm}{%
+ % 6/8em/accent!30/{Sleep,\\beautiful sleep},
+ % 3/8em/accent!40/Hopeful novelist by night,
+ % 8/8em/accent!60/Daytime job,
+ % 2/10em/accent/Sports and relaxation,
+ % 5/6em/accent!20/Spending time with family
+%}
 
 % use ONLY \newpage if you want to force a page break for
 % ONLY the current column
-\newpage
+%\newpage
 
-\cvsection{Publications}
-
-%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-\mynames{Lim/Lian\bibnamedelima Tze,
-  Wong/Lian\bibnamedelima Tze,
-  Lim/Tracy,
-  Lim/L.\bibnamedelimi T.}
-%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+\cvsection{Công bố}
 
 \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+\printbibliography[heading=none]
 
-\divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
 
-\divider
+% \bibliographystyle{plain}
+% \bibliography{public}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \printbibliography[type=book,title={Books only}]
+
+%\divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Articles}},type=article]
+
+% \printbibliography[heading=subbibliography, title={Publications}, type=article]
+
+%\divider
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{My Life Philosophy}
+%\cvsection{My Life Philosophy}
 
-\begin{quote}
-``Something smart or heartfelt, preferably in one sentence.''
-\end{quote}
+%\begin{quote}
+%``Something smart or heartfelt, preferably in one sentence.''
+%\end{quote}
 
 \cvsection{Most Proud of}
 
-\cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
+\cvachievement{\faHeartbeat}{Đam mê cháy bổng}{Luôn yêu công việc bản thân đang làm và luôn học hỏi điều mới}
 
 \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+\cvachievement{\faAward}{Chill guy}{Biết cách biến mọi khó khăn và áp lực thành động lực}
 
-\divider
+%\divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+%\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 
-\cvsection{Strengths}
+\cvsection{Thế mạnh}
 
 % Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
 
-\cvtag{Hard-working}
-\cvtag{Eye for detail}\\
-\cvtag{Motivator \& Leader}
+% The `ragged2e` document class option might cause automatic linebreaks between \cvtag to fail.
+% Either remove the ragged2e option; or 
+% add \LaTeXraggedright in the paragraph for these \cvtag
+%{\LaTeXraggedright
+%\cvtag{Hard-working}
+%\cvtag{Eye for detail}
+%\cvtag{Motivator \& Leader}
+%\par}
+
+%\divider\smallskip
+
+%% ...Or manually add linebreaks yourself
+\cvtag{C/C++}
+\cvtag{Python}
+\cvtag{Data Analysis}\\
+\cvtag{Library Development}
+
 
 \divider\smallskip
 
-\cvtag{C++}
-\cvtag{Embedded Systems}\\
-\cvtag{Statistical Analysis}
+\cvtag{Optimization}
+\cvtag{Operations Research}\\
+\cvtag{Machine Learning}
+\cvtag{Deep Learning}
 
-\cvsection{Languages}
+\cvsection{Kỹ năng}
 
-\cvskill{English}{5}
+\cvskill{Maths \& Code}{4}
 \divider
 
-\cvskill{Spanish}{4}
-\divider
+\cvskill{English}{4}
 
-\cvskill{German}{3.5} %% Supports X.5 values.
+% \cvskill{German}{3.5} %% Supports X.5 values.
 
 %% Yeah I didn't spend too much time making all the
 %% spacing consistent... sorry. Use \smallskip, \medskip,
 %% \bigskip, \vspace etc to make adjustments.
 \medskip
 
-\cvsection{Education}
+\cvsection{Học vấn}
 
-\cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
-Thesis title: Wonderful Research
-
-\divider
-
-\cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
-
-\divider
-
-\cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
+\cvevent{Năm 3.\ Ngành Toán Ứng Dụng}{Đại học Sài Gòn}{2022 -- 2026}{}
+% Thesis title: Wonderful Research
 
 % \divider
 
-\cvsection{Referees}
+% \cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
+
+% \divider
+
+% \cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
+
+% \divider
+
+\cvsection{Minh chứng}
 
 % \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address line 2}
+\cvref{PGS.TS.\ Tạ Quang Sơn}{Khoa Toán - Ứng dụng}{taquangson@sgu.edu.vn}
+{Đại học Sài Gòn, TP.HCM, Việt Nam}
 
 \divider
 
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address line 2}
+\cvref{TS.\ Lê Minh Huy}{Khoa Khoa học cơ bản}{huy.lm@vlu.edu.vn}
+{Đại học Văn Lang, TP.HCM, Việt Nam}
+
+\divider
+
+\cvref{TS.\ Trần Thanh Hiệp}{Khoa Khoa học Ứng dụng}{ttthiep.sdh241@hcmut.edu.vn}
+{Đại học Bách khoa TP.HCM, Việt Nam}
 
 
 \end{paracol}
