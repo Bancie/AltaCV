@@ -19,26 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{bancie}{article}{}
+    \entry{bancie}{book}{}
       \name{author}{1}{}{%
-        {{hash=c22e5d6181e3e0497b95e81d3b837002}{%
-           family={Nguyễn\bibnamedelimb Chí\bibnamedelima Bằng},
+        {{hash=85a17747e31f2f18e18b1c58a1976c54}{%
+           family={Nguyen\bibnamedelimb Chi\bibnamedelima Bang},
            familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Đỗ\bibnamedelima Ngọc\bibnamedelimb Minh\bibnamedelima Thư},
-           giveni={Đ\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+           given={Do\bibnamedelima Ngoc\bibnamedelimb Minh\bibnamedelima Thu},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{fullhash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{bibnamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authorbibnamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authornamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authorfullhash}{c22e5d6181e3e0497b95e81d3b837002}
+      \strng{namehash}{85a17747e31f2f18e18b1c58a1976c54}
+      \strng{fullhash}{85a17747e31f2f18e18b1c58a1976c54}
+      \strng{bibnamehash}{85a17747e31f2f18e18b1c58a1976c54}
+      \strng{authorbibnamehash}{85a17747e31f2f18e18b1c58a1976c54}
+      \strng{authornamehash}{85a17747e31f2f18e18b1c58a1976c54}
+      \strng{authorfullhash}{85a17747e31f2f18e18b1c58a1976c54}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Đại học Sài Gòn}
-      \field{title}{Phương pháp giải bài toán Tối ưu tuyến tính nguyên}
+      \field{journaltitle}{Saigon University}
+      \field{title}{Method for Solving Integer Linear Optimization Problems}
       \field{year}{2024}
       \true{nocite}
     \endentry
