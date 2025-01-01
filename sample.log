@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.1)  1 DEC 2024 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.1)  1 JAN 2025 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1160,10 +1160,6 @@ LaTeX Font Warning: Font shape `T5/lato-TLF/b/n' undefined
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 84.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 84.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 84.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 84.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
@@ -1171,11 +1167,11 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <5> on input line 84.
-<bancie.png, id=17, 501.875pt x 501.875pt>
-File: bancie.png Graphic file (type png)
-<use bancie.png>
-Package pdftex.def Info: bancie.png  used on input line 84.
-(pdftex.def)             Requested size: 501.87376pt x 501.87376pt.
+<chibang.png, id=16, 1423.3175pt x 1423.3175pt>
+File: chibang.png Graphic file (type png)
+<use chibang.png>
+Package pdftex.def Info: chibang.png  used on input line 84.
+(pdftex.def)             Requested size: 1423.31404pt x 1423.31404pt.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 97.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 99.
@@ -1185,33 +1181,31 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 99.
 
-Overfull \hbox (11.5953pt too wide) in paragraph at lines 107--108
+Overfull \hbox (11.5953pt too wide) in paragraph at lines 116--117
 []\T5/lato-TLF/b/n/10 Nghi¶n cùu v  ùng döng thuªt to¡n Branch and Bound v  Gomory, 
  []
 
 
-Overfull \hbox (10.94269pt too wide) in paragraph at lines 107--108
+Overfull \hbox (10.94269pt too wide) in paragraph at lines 116--117
 \T5/lato-TLF/b/n/10 gi£i quy¸t b i to¡n tèi ÷u tuy¸n t½nh vîi r ng buëc nghi»m nguy¶n.  
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 120.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 129.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 120.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 129.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 130.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 121.
-
-Overfull \hbox (3.61115pt too wide) in paragraph at lines 127--128
-[]\T5/lato-TLF/b/n/10 Th÷ vi»n m¢ nguçn mð ph¡t triºn v  c£i thi»n thuªt to¡n Branch 
- []
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 130.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'bancie' on input line 154.
+(biblatex)                at entry 'bancie' on input line 163.
 
 
 LaTeX Font Warning: Font shape `T5/lato-TLF/m/it' undefined
-(Font)              using `T5/lato-TLF/m/n' instead on input line 154.
+(Font)              using `T5/lato-TLF/m/n' instead on input line 163.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1221,18 +1215,18 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                for \mkbibdatelong.
 
 
-Overfull \hbox (1.14969pt too wide) in paragraph at lines 186--186
+Overfull \hbox (1.14969pt too wide) in paragraph at lines 195--195
 []|[]| 
  []
 
 
-Overfull \hbox (1.14969pt too wide) in paragraph at lines 190--190
+Overfull \hbox (1.14969pt too wide) in paragraph at lines 199--199
 []|[]| 
  []
 
 [1
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./bancie.png>] (./sample.aux)
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc} <./chibang.png>] (./sample.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1248,17 +1242,17 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44176 strings out of 474116
- 881595 string characters out of 5743682
- 1964187 words of memory out of 5000000
- 65892 multiletter control sequences out of 15000+600000
- 591999 words of font info for 60 fonts, out of 8000000 for 9000
+ 44141 strings out of 474116
+ 880788 string characters out of 5743682
+ 1956187 words of memory out of 5000000
+ 65857 multiletter control sequences out of 15000+600000
+ 591065 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,1165b,2659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,121p,1165b,2655s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr9.pfb>
-Output written on sample.pdf (1 page, 422050 bytes).
+Output written on sample.pdf (1 page, 1263118 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
