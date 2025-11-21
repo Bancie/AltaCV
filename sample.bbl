@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,26 +18,35 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{bancie}{article}{}
-      \name{author}{1}{}{%
-        {{hash=c22e5d6181e3e0497b95e81d3b837002}{%
-           family={Nguyễn\bibnamedelimb Chí\bibnamedelima Bằng},
-           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Đỗ\bibnamedelima Ngọc\bibnamedelimb Minh\bibnamedelima Thư},
-           giveni={Đ\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bancie}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=460f2e3ae00f87d45d9de39930ec36d2}{%
+           family={Bằng},
+           familyi={B\bibinitperiod},
+           given={Nguyễn\bibnamedelima Chí},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=be3643d5e06a062b77cb6c82992a9681}{%
+           family={Thư},
+           familyi={T\bibinitperiod},
+           given={Đỗ\bibnamedelima Ngọc\bibnamedelima Minh},
+           giveni={Đ\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{fullhash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{bibnamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authorbibnamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authornamehash}{c22e5d6181e3e0497b95e81d3b837002}
-      \strng{authorfullhash}{c22e5d6181e3e0497b95e81d3b837002}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \list{institution}{1}{%
+        {Đại học Sài Gòn}%
+      }
+      \strng{namehash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{fullhash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{fullhashraw}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{bibnamehash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{authorbibnamehash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{authornamehash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{authorfullhash}{06b0912cb0def32faa5e63a5a84a1960}
+      \strng{authorfullhashraw}{06b0912cb0def32faa5e63a5a84a1960}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Đại học Sài Gòn}
       \field{title}{Phương pháp giải bài toán Tối ưu tuyến tính nguyên}
       \field{year}{2024}
       \true{nocite}
